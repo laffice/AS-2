@@ -3,3 +3,57 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+
+*{
+  color: #FFFFFF;
+  margin: 0;
+}
+
+/* shared style  */
+
+.flex{
+  display: flex;
+}
+
+/* This is header  */
+
+/* navbar */
+
+.navber{
+  justify-content: space-around;
+  background-color: #1A0B2E;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.title h1{
+  font-size: 3rem;
+}
+.wave{
+  background: linear-gradient(20deg, #F7E93F, #FB09B4, #9100F8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.navs{
+  gap: 40px;
+  margin-top: 20px;
+  
+}
+ul li{
+  list-style: none;
+  
+}
+ul li a{
+  text-decoration: none;
+}
+.btn{
+  padding: 13px 40px 13px 17px;
+  background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
+  border-radius: 1000px;
+  border: none;
+}
+
+.hamburger{
+  display: none;
+}
