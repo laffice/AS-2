@@ -23,3 +23,13 @@
         margin-top: 25px;
     }
 }
+
+/* large screen  */
+
+@media screen and (min-width:992px) and (max-width: 1200px){
+    .circle{
+  width: 75%;
+  /* display: block; */
+    }
+
+}

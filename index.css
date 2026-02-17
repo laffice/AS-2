@@ -48,7 +48,7 @@ ul li a{
   text-decoration: none;
 }
 .btn{
-  padding: 13px 40px 13px 17px;
+  padding: 13px 30px 13px 17px;
   background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
   border-radius: 1000px;
   border: none;
@@ -56,4 +56,82 @@ ul li a{
 
 .hamburger{
   display: none;
+}
+
+/* hero-container */
+#hero-section{
+  /* min-height: 100vh; */
+  background-image: url(assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* position: relative; */
+}
+
+.hero-container{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5.5%;
+  /* padding-bottom: ; */
+}
+
+.image{
+  position: relative;
+  margin: auto;
+  width: 450px;
+}
+
+.circle{
+  width: 100%;
+  display: block;
+}
+.mic{
+  position: absolute;
+  width: 35%;
+  top: 27%;
+  left: 33%;
+  /* transform: translate(-35%, -27%); */
+}
+.new-btn{
+  position: absolute;
+  padding: 10px 18px;
+  background-color: #00FF88;
+  color: #1A0B2E;
+  font-weight: 600;
+  font-size: 19px;
+  border-radius: 1000px;
+  border: none;
+  top:  12%;
+  left: 80%;
+}
+
+.hero-content{
+  margin-top: 50px;
+  text-align: center;
+}
+.hero-content h1{
+  font-size: 3.7rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.hero-content p{
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.buttons{
+  padding-bottom: 110px;
+  
+}
+
+.envelop{
+  padding: 13px 21px 13px 30px;
+  color: #00FF88;
+  background-color: transparent;
+  border: 1px solid #00FF88;
+  border-radius: 1000px;
+  margin-left: 15px;
+}
+.fa-envelope{
+  color: #00FF88;
 }
