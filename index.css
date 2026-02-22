@@ -20,6 +20,9 @@
 .bg-cll{
   background-color: #230E3D;
 }
+.green{
+  color: #00FF88;
+}
 
 /* This is header  */
 
@@ -241,3 +244,41 @@ justify-content: center;
   font-weight: 100;
 }
 
+/* featured section  */
+.features{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+.featured-episodes h1{
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 120px;
+  margin-bottom: 50px;
+}
+
+.Episodes{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 30px;
+}
+.carts{
+  padding: 24px;
+  border-radius: 20px;
+}
+.carts h2{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.time{
+  margin-top: 15px;
+
+}
+
+.carts p{
+  font-size: 0.875rem;
+  font-weight: 200;
+  margin-bottom: 15px;
+}

@@ -20,13 +20,16 @@
     }
     .about-content{
         grid-template-columns: repeat(1, 1fr);
-    }
-    .about-content{
         padding: 20px;
     }
-    .box-1{
+    
+    .box-1, .box-5{
         /* width: 100%; */
         grid-row: span 1;
+        grid-column: span 2;
+    }
+    .Episodes{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -56,10 +59,16 @@
 }
 
     .about-content{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+   
+    .box-1, .box-2, .box-3, .box-4, .box-5{
+        grid-row: span 1;
+        grid-column: span 1;    }
+         .Episodes{
         grid-template-columns: repeat(1, 1fr);
     }
-
-
 }
 
 
@@ -79,10 +88,8 @@
         padding: 20px;
         text-align: center;
 }
-
-.about-content{
-        grid-template-columns: repeat(1, 1fr);
+   .Episodes{
+        grid-template-columns: repeat(2, 1fr);
     }
 
-
-}
+} 
